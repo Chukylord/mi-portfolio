@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Cristian Sgotti</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <a href="#" class="logo">Cristian Ezequiel Sgotti</a>
+      <div class="menu">
+        <a href="#about">Sobre mí</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero" id="about">
+    <img src="images/imagen_cv.jpeg" alt="Foto de Cristian Sgotti">
+    <h1>Hola, soy Cristian Ezequiel Sgotti</h1>
+    <p>Full-Stack Web Developer, apasionado por crear soluciones eficientes y elegantes. Especializado en PHP, MySQL y Laravel.</p>
+  </section>
+
+  <section id="skills">
+    <h2 style="text-align: center; margin-bottom: 2rem;">Habilidades</h2>
+    <div class="skills">
+      <div class="skill-item">
+        <i class="devicon-php-plain"></i>
+        <h3>PHP</h3>
+        <p>Desarrollo backend con PHP puro y buenas prácticas.</p>
+      </div>
+      <div class="skill-item">
+        <i class="devicon-laravel-plain"></i>
+        <h3>Laravel</h3>
+        <p>Framework MVC para construir APIs y aplicaciones web.</p>
+      </div>
+      <div class="skill-item">
+        <i class="devicon-html5-plain"></i>
+        <h3>HTML5</h3>
+        <p>Marcado semántico y accesible.</p>
+      </div>
+      <div class="skill-item">
+        <i class="devicon-css3-plain"></i>
+        <h3>CSS3</h3>
+        <p>Estilos responsivos y animaciones fluidas.</p>
+      </div>
+      <div class="skill-item">
+        <i class="devicon-tailwindcss-plain"></i>
+        <h3>TailwindCSS</h3>
+        <p>Diseño rápido con utilidades y componentes.</p>
+      </div>
+      <div class="skill-item">
+        <i class="devicon-mysql-plain"></i>
+        <h3>MySQL</h3>
+        <p>Modelado de datos y consultas optimizadas.</p>
+      </div>
+      <div class="skill-item">
+        <i class="devicon-python-plain"></i>
+        <h3>Python</h3>
+        <p>Automatización de tareas y scripting.</p>
+      </div>
+      <div class="skill-item">
+        <i class="devicon-javascript-plain"></i>
+        <h3>JavaScript</h3>
+        <p>Interactividad y lógica del lado del cliente.</p>
+      </div>
+      <div class="skill-item">
+        <i class="devicon-git-plain"></i>
+        <h3>Git</h3>
+        <p>Control de versiones y colaboración en código.</p>
+      </div>
+        <div class="skill-item">
+        <i class="devicon-github-original"></i>
+        <h3>GitHub</h3>
+        <p>Gestión de repositorios y flujo CI/CD.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 style="text-align: center; margin-bottom: 2rem;">Proyectos</h2>
+    <div class="projects">
+      <div class="project-item">
+        <img src="proyecto1.jpg" alt="Inventario Saphirus">
+        <h3>Inventario Saphirus</h3>
+        <p>Sistema de gestión de inventario con PHP y MySQL. <br> Lleva registro de stock, compras, ventas e informes. </p>
+      </div>
+      <div class="project-item">
+        <img src="proyecto-municipal.jpg" alt="Sistema Municipal">
+        <h3>Sistema Municipal</h3>
+        <p>Sistema de carga de CV y empresas para la Municipalidad de Arroyo Seco.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 style="text-align: center; margin-bottom: 2rem;">Contacto</h2>
+    <form action="mailto:c.sgotti@hotmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo" required>
+      <textarea name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+</body>
+</html>
