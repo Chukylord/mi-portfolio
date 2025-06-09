@@ -1,0 +1,1 @@
+Este repositorio contiene mi portfolio web estático, construido con HTML, CSS y Devicon.
