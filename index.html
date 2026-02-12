@@ -3,110 +3,159 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio - Cristian Sgotti</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Portafolio profesional | Cristian Ezequiel Sgotti</title>
+  <meta name="description" content="Portafolio profesional de Cristian Ezequiel Sgotti, Full-Stack Developer especializado en PHP, Laravel, MySQL y JavaScript.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <div class="container">
-      <a href="#" class="logo">Cristian Ezequiel Sgotti</a>
-      <div class="menu">
-        <a href="#about">Sobre mí</a>
-        <a href="#skills">Habilidades</a>
-        <a href="#projects">Proyectos</a>
-        <a href="#contact">Contacto</a>
-      </div>
+  <header class="topbar">
+    <div class="container nav-wrapper">
+      <a href="#inicio" class="logo">Cristian Sgotti</a>
+      <nav class="menu" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
     </div>
-  </nav>
+  </header>
 
-  <section class="hero" id="about">
-    <img src="images/imagen_cv.jpeg" alt="Foto de Cristian Sgotti">
-    <h1>Hola, soy Cristian Ezequiel Sgotti</h1>
-    <p>Full-Stack Web Developer, apasionado por crear soluciones eficientes y elegantes. Especializado en PHP, MySQL y Laravel.</p>
-  </section>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="tag">Full-Stack Web Developer</p>
+          <h1>Creo soluciones web robustas, escalables y enfocadas en resultados de negocio.</h1>
+          <p class="intro">
+            Soy Cristian Ezequiel Sgotti. Ayudo a empresas y equipos a digitalizar procesos con aplicaciones modernas, APIs seguras y experiencias web claras para los usuarios.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+            <a class="btn btn-secondary" href="mailto:c.sgotti@hotmail.com">Contratar</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <img src="images/imagen_cv.jpeg" alt="Foto profesional de Cristian Sgotti">
+          <ul>
+            <li><strong>Ubicación:</strong> Arroyo Seco, Santa Fe</li>
+            <li><strong>Especialidad:</strong> Backend y arquitectura web</li>
+            <li><strong>Stack principal:</strong> PHP, Laravel, MySQL, JS</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-  <section id="skills">
-    <h2 style="text-align: center; margin-bottom: 2rem;">Habilidades</h2>
-    <div class="skills">
-      <div class="skill-item">
-        <i class="devicon-php-plain"></i>
-        <h3>PHP</h3>
-        <p>Desarrollo backend con PHP puro y buenas prácticas.</p>
+    <section class="section" id="sobre-mi">
+      <div class="container about-grid">
+        <article>
+          <h2>Perfil profesional</h2>
+          <p>
+            Cuento con experiencia desarrollando sistemas internos para gestión administrativa, inventario y vinculación entre instituciones y usuarios.
+            Me enfoco en escribir código mantenible, priorizar rendimiento y entregar valor rápido a cada cliente.
+          </p>
+        </article>
+        <article>
+          <h2>Lo que aporto</h2>
+          <ul class="check-list">
+            <li>Diagnóstico y mejora de procesos manuales.</li>
+            <li>Diseño de soluciones backend con buenas prácticas.</li>
+            <li>Implementación de interfaces limpias y responsivas.</li>
+            <li>Trabajo colaborativo con control de versiones (Git).</li>
+          </ul>
+        </article>
       </div>
-      <div class="skill-item">
-        <i class="devicon-laravel-plain"></i>
-        <h3>Laravel</h3>
-        <p>Framework MVC para construir APIs y aplicaciones web.</p>
+    </section>
+
+    <section class="section" id="habilidades">
+      <div class="container">
+        <h2 class="section-title">Stack técnico</h2>
+        <div class="skills">
+          <article class="skill-item">
+            <i class="devicon-php-plain"></i>
+            <h3>PHP</h3>
+            <p>Lógica de negocio y servicios backend confiables.</p>
+          </article>
+          <article class="skill-item">
+            <i class="devicon-laravel-plain"></i>
+            <h3>Laravel</h3>
+            <p>Desarrollo de APIs y aplicaciones MVC escalables.</p>
+          </article>
+          <article class="skill-item">
+            <i class="devicon-mysql-plain"></i>
+            <h3>MySQL</h3>
+            <p>Modelado de datos, consultas eficientes y reportes.</p>
+          </article>
+          <article class="skill-item">
+            <i class="devicon-javascript-plain"></i>
+            <h3>JavaScript</h3>
+            <p>Interactividad y validación del lado del cliente.</p>
+          </article>
+          <article class="skill-item">
+            <i class="devicon-html5-plain"></i>
+            <h3>HTML5 + CSS3</h3>
+            <p>Estructura semántica y diseño responsive moderno.</p>
+          </article>
+          <article class="skill-item">
+            <i class="devicon-git-plain"></i>
+            <h3>Git & GitHub</h3>
+            <p>Versionado, revisión de cambios y trabajo en equipo.</p>
+          </article>
+        </div>
       </div>
-      <div class="skill-item">
-        <i class="devicon-html5-plain"></i>
-        <h3>HTML5</h3>
-        <p>Marcado semántico y accesible.</p>
+    </section>
+
+    <section class="section" id="proyectos">
+      <div class="container">
+        <h2 class="section-title">Proyectos destacados</h2>
+        <div class="projects">
+          <article class="project-item">
+            <h3>Inventario Saphirus</h3>
+            <p>
+              Sistema de gestión de inventario con módulos de stock, compras, ventas e informes.
+              Redujo errores operativos y mejoró el control de mercadería en tiempo real.
+            </p>
+            <span class="project-tech">PHP · MySQL · Bootstrap</span>
+          </article>
+          <article class="project-item">
+            <h3>Plataforma Municipal de Empleo</h3>
+            <p>
+              Portal para registro de CVs y empresas para la Municipalidad de Arroyo Seco.
+              Facilitó la conexión entre perfiles laborales y oportunidades locales.
+            </p>
+            <span class="project-tech">Laravel · MySQL · JavaScript</span>
+          </article>
+          <article class="project-item">
+            <h3>Automatizaciones internas</h3>
+            <p>
+              Scripts y utilidades para consolidación de datos, limpieza de registros y reducción de tareas manuales repetitivas.
+            </p>
+            <span class="project-tech">Python · SQL · APIs</span>
+          </article>
+        </div>
       </div>
-      <div class="skill-item">
-        <i class="devicon-css3-plain"></i>
-        <h3>CSS3</h3>
-        <p>Estilos responsivos y animaciones fluidas.</p>
+    </section>
+
+    <section class="section contact" id="contacto">
+      <div class="container contact-box">
+        <h2>¿Hablamos de tu próximo proyecto?</h2>
+        <p>
+          Si necesitás una solución web profesional para tu empresa o emprendimiento, escribime y coordinamos una reunión.
+        </p>
+        <a class="btn btn-primary" href="mailto:c.sgotti@hotmail.com">Enviar email</a>
       </div>
-      <div class="skill-item">
-        <i class="devicon-tailwindcss-plain"></i>
-        <h3>TailwindCSS</h3>
-        <p>Diseño rápido con utilidades y componentes.</p>
-      </div>
-      <div class="skill-item">
-        <i class="devicon-mysql-plain"></i>
-        <h3>MySQL</h3>
-        <p>Modelado de datos y consultas optimizadas.</p>
-      </div>
-      <div class="skill-item">
-        <i class="devicon-python-plain"></i>
-        <h3>Python</h3>
-        <p>Automatización de tareas y scripting.</p>
-      </div>
-      <div class="skill-item">
-        <i class="devicon-javascript-plain"></i>
-        <h3>JavaScript</h3>
-        <p>Interactividad y lógica del lado del cliente.</p>
-      </div>
-      <div class="skill-item">
-        <i class="devicon-git-plain"></i>
-        <h3>Git</h3>
-        <p>Control de versiones y colaboración en código.</p>
-      </div>
-        <div class="skill-item">
-        <i class="devicon-github-original"></i>
-        <h3>GitHub</h3>
-        <p>Gestión de repositorios y flujo CI/CD.</p>
-      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© 2026 Cristian Ezequiel Sgotti</p>
+      <a href="mailto:c.sgotti@hotmail.com">c.sgotti@hotmail.com</a>
     </div>
-  </section>
-
-  <section id="projects">
-    <h2 style="text-align: center; margin-bottom: 2rem;">Proyectos</h2>
-    <div class="projects">
-      <div class="project-item">
-        <img src="proyecto1.jpg" alt="Inventario Saphirus">
-        <h3>Inventario Saphirus</h3>
-        <p>Sistema de gestión de inventario con PHP y MySQL. <br> Lleva registro de stock, compras, ventas e informes. </p>
-      </div>
-      <div class="project-item">
-        <img src="proyecto-municipal.jpg" alt="Sistema Municipal">
-        <h3>Sistema Municipal</h3>
-        <p>Sistema de carga de CV y empresas para la Municipalidad de Arroyo Seco.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact" id="contact">
-    <h2 style="text-align: center; margin-bottom: 2rem;">Contacto</h2>
-    <form action="mailto:c.sgotti@hotmail.com" method="post" enctype="text/plain">
-      <input type="text" name="name" placeholder="Tu nombre" required>
-      <input type="email" name="email" placeholder="Tu correo" required>
-      <textarea name="message" rows="5" placeholder="Tu mensaje" required></textarea>
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
+  </footer>
 </body>
 </html>
